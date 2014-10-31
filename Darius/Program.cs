@@ -145,7 +145,7 @@ namespace Darius
                     }
                 }
             }
-            else if (ObjectManager.Player.GetSpellDamage(target, SpellSlot.R, 1) - 15 >
+            else if (ObjectManager.Player.GetSpellDamage(target, SpellSlot.R, 2) - 15 >
                      target.Health)
             {
                 _r.CastOnUnit(target, true);
